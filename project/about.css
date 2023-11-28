@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+.about{
+    text-align: center;
+}
+
+
+.about_text{
+    width: 35%;
+    transform: translate(0%, -60%);
+    margin: auto;
+    height: 80px;
+    background-color: rgb(241, 240, 236);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.about_text h2{
+    padding: 20px ;
+    width: 500px;
+    font-size: 23px;
+}
+
+.about_text hr{
+    border: solid 2px black;
+}
+.about_hr{
+    margin-top: -20px;
+}
+
+.about_hr hr{
+ width: 100px;
+  border: solid 2px rgb(247, 63, 35);
+  margin: auto;
+}
+
+.about_text_text{
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding: 0px 0px 120px;
+    font-size: 18px;
+    
+    
+    
+}
+.about_text_text p{
+    padding: 10px 0px 10px;
+}
+
+
+
+

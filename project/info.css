@@ -1,0 +1,173 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(241, 240, 236);
+}
+
+hr{
+    width: 335px;
+}
+/* ///////////////////////////// */
+.info_navigatio {
+  width: 50%;
+  height: 20px;
+  margin: auto;
+
+  flex-direction: row;
+padding: 100px 0px 40px;
+}
+.info_navigatio div {
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+}
+
+.info_navigatio_left {
+  float: left;
+  color: grey;
+}
+.info_navigatio_left a,
+.info_navigatio_right a {
+  color: grey;
+}
+
+.info_navigatio_right {
+  float: right;
+  color: grey;
+  
+}
+
+.info_main {
+  justify-content: center;
+  align-items: center;  
+  display: flex;
+
+}
+.info_main .info_main_one {
+  width: 25%;
+  height: 700px;
+
+}
+.info_main .info_main_two {
+  width: 25%;
+  height: 700px;
+  
+  transform: translate(10%, 0%); 
+}
+
+.info_main_one img {
+  width: 480px;
+  height: 500px;
+  padding-bottom: 25px;
+}
+.info_main_one p {
+  color: grey;
+  text-align: center;
+}
+
+.info_main_two h1 {
+  padding-bottom: 6px;
+ 
+
+}
+.info_main_two_prize{
+  padding: 15px 0px 15px;
+}
+.Quantity{
+    color: orangered;
+    padding-bottom: 20px;
+}
+.info_main_two_counter{
+    width: 70px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px 0px 20px;
+    display: block;
+}
+
+.info_main_two_button{
+    background-color: rgb(247,63,35);
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    padding: 7px 0px ;
+    width: 335px;
+    display: block;
+    margin-top: 5px;
+    transition: 0.2s;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+  }
+  .info_main_two_button_two {
+    background-color: rgb(47,47,48);
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    padding: 7px 0px ;
+    width: 335px;
+    display: block;
+    margin-top: 5px;
+    transition: 0.2s;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+  }
+
+  .info_main_two_button:hover ,.info_main_two_button_two:hover {
+   opacity: 0.85;
+  }
+
+
+
+
+  /* //////////// */
+
+  .dropdown{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+/*hide the inputs/checkmarks and submenu*/
+input, ul.submenu {
+    display: none;
+   
+  }
+  
+  /*position the label*/
+  label {
+    position: inherit;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 0px 10px ;
+    padding-top: 20px;
+   
+  }
+  
+  /*show the submenu when input is checked ~~~~~~~*/
+  input:checked~ul.submenu {
+    display: block;
+    animation: mymove 1s;
+    width: 300px;
+    padding: 1px;
+    height: 200px;
+  }
+
+
+  @keyframes mymove {
+    0% {
+        transform: rotateX(-90deg);
+        
+    }
+  
+    100% {
+        transform: rotateX(0deg);
+      
+    }
+}
